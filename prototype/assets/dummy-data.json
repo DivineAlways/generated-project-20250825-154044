@@ -1,0 +1,41 @@
+{
+  "modules": [
+    {
+      "title": "The 'Spicy' Mindset: Unlocking Viral Ideas",
+      "description": "Learn the psychological triggers behind viral content. We'll break down why edgy, controversial, and high-emotion content performs and how to ethically tap into it without getting cancelled."
+    },
+    {
+      "title": "AI Prompt Engineering for Creators",
+      "description": "Stop using basic prompts. Master advanced techniques to make AI your personal ghostwriter, brainstorming partner, and script editor. Includes our library of 100+ 'spicy' prompts."
+    },
+    {
+      "title": "Content Automation: The 1-Hour Workflow",
+      "description": "Discover the tools and systems to go from a single idea to a week's worth of content across all your platforms in under an hour. We'll cover video scripts, Twitter threads, and more."
+    },
+    {
+      "title": "Monetization & Brand Building",
+      "description": "Viral content is useless if it doesn't build your brand or your bank account. Learn how to convert attention into audience, and audience into income through sponsorships, products, and services."
+    },
+    {
+      "title": "The Art of the Edge: Staying Safe & Relevant",
+      "description": "Navigating the fine line between edgy and offensive is a skill. This module covers content moderation, community management, and how to handle backlash like a pro."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "JennaFlows",
+      "handle": "@JennaFlowsYT",
+      "quote": "I was stuck in a content rut, posting the same boring stuff. This course completely changed the game. My engagement is up 300% and I finally feel like my content has a unique voice."
+    },
+    {
+      "name": "CryptoCody",
+      "handle": "@RealCryptoCody",
+      "quote": "The AI prompt library alone is worth the price. I've saved at least 10 hours a week on scripting and writing. It's an absolute cheat code for any serious creator."
+    },
+    {
+      "name": "SaaS_Samantha",
+      "handle": "@SaaSSamantha",
+      "quote": "I thought 'spicy' content was just for influencers, not B2B. I was wrong. The strategies in this course helped me create marketing content that actually gets noticed. Our lead gen has doubled."
+    }
+  ]
+}
