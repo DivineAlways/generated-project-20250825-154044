@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Wireframe</title>
+    <style>
+        body { font-family: 'Courier New', monospace; color: #333; margin: 0; padding: 0; background-color: #f9f9f9; }
+        .container { display: flex; }
+        .main-content { width: 65%; }
+        .notes { width: 35%; background-color: #f0f0f0; padding: 20px; border-left: 2px dashed #ccc; min-height: 100vh; }
+        .notes h3 { margin-top: 0; border-bottom: 1px solid #aaa; padding-bottom: 10px; }
+        .notes p { font-size: 14px; line-height: 1.5; }
+        .section { border: 2px solid #ccc; padding: 20px; margin: 20px; text-align: center; background-color: #fff; }
+        .box { border: 1px dashed #666; padding: 10px; margin-top: 15px; background-color: #e9e9e9; }
+        h2 { margin: 0 0 10px 0; font-size: 16px; color: #555; }
+        .flex { display: flex; gap: 10px; justify-content: center; }
+        .flex .box { flex: 1; }
+        .cta-button { background-color: #333; color: #fff; padding: 10px 20px; display: inline-block; margin-top: 10px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="section">
+                <h2>Navigation</h2>
+                <div class="box">[Logo] [Modules] [Testimonials] [Enroll]</div>
+            </div>
+
+            <div class="section" style="padding-bottom: 40px;">
+                <h2>Hero Section</h2>
+                <div class="box" style="padding: 30px 0;">
+                    <h1>[BIG, BOLD HEADLINE]</h1>
+                    <p>[Compelling one-sentence subheading]</p>
+                    <a href="#" class="cta-button">[Primary CTA Button]</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>What You'll Learn</h2>
+                <div class="flex">
+                    <div class="box">[Icon]<br/>Benefit 1</div>
+                    <div class="box">[Icon]<br/>Benefit 2</div>
+                    <div class="box">[Icon]<br/>Benefit 3</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Course Modules</h2>
+                <div class="box">[Module 1 Title] [+]</div>
+                <div class="box">[Module 2 Title] [+]</div>
+                <div class="box">[Module 3 Title] [+]</div>
+                <div class="box">[Module 4 Title] [+]</div>
+            </div>
+
+            <div class="section">
+                <h2>Testimonials</h2>
+                <div class="flex">
+                    <div class="box">"Quote..."<br/>- Name</div>
+                    <div class="box">"Quote..."<br/>- Name</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Enrollment / Pricing</h2>
+                <div class="box" style="padding: 30px;">
+                    <h3>[Course Name]</h3>
+                    <p>[Price]</p>
+                    <a href="#" class="cta-button">[Final CTA Button]</a>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Footer</h2>
+                <div class="box">[Social Links] [Terms] [Contact]</div>
+            </div>
+
+        </div>
+        <aside class="notes">
+            <h3>Wireframe Notes</h3>
+            <p><strong>Overall:</strong> Single-page layout for a clear, linear user journey.</p>
+            <p><strong>Nav:</strong> Sticky navigation for easy access to sections. "Enroll" is highlighted.</p>
+            <p><strong>Hero:</strong> Must grab attention immediately. Headline is the most critical copy. CTA should be above the fold.</p>
+            <p><strong>Benefits:</strong> Use icons to make benefits easily scannable.</p>
+            <p><strong>Modules:</strong> Accordion UI to keep the section clean and prevent overwhelming the user. Clicking expands to show details.</p>
+            <p><strong>Testimonials:</strong> Social proof is key for trust. Include names and handles if possible.</p>
+            <p><strong>Enrollment:</strong> Simple, clear pricing. No hidden fees. CTA button should be high-contrast and unmissable.</p>
+            <p><strong>Footer:</strong> Standard legal and contact information.</p>
+        </aside>
+    </div>
+</body>
+</html>
